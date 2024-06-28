@@ -1,317 +1,760 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>생성형 AI 업무 혁신</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+  </head>
+  <body>
+    <div class="site-wrap">
+      <div class="content-wrap tutorial">
+        <div class="body-content">
+          <div class="overlay"></div>
+          <div class="banner">
+            <h1 id="banner-title">다른 번역 도구와 교차 검증하기</h1>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>생성형 AI 업무 혁신</title>
-  <link rel="stylesheet" type="text/css" href="../style.css" />
-</head>
+            <div style="text-align: left">
+              <div style="position: relative; padding-bottom: 56.25%">
+                <iframe
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                  "
+                  src="https://embed.app.guidde.com/playbooks/otMt3T5pwwkUoKdeC3AiAG"
+                  title="다른 번역 도구와 교차 검증하기"
+                  frameborder="0"
+                  referrerpolicy="unsafe-url"
+                  allowfullscreen="true"
+                  allow="clipboard-write"
+                  sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-forms allow-same-origin allow-presentation"
+                ></iframe>
+              </div>
 
-<body>
-  <div class="site-wrap">
-    <div class="content-wrap tutorial">
-      <div class="body-content">
-        <div class="overlay"></div>
-        <div class="banner">
-          <h1 id="banner-title">DeepL API 계정 등록하기</h1>
-
-          <div style="text-align:left;">
-            <div style="position:relative;padding-bottom:56.25%;">
-              <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px"
-                src="https://embed.app.guidde.com/playbooks/9c3paYzHZ1to7As8zVNE99"
-                title="[생성형 AI 업무 혁신]  DeepL API 계정 등록하기" frameborder="0" referrerpolicy="unsafe-url"
-                allowfullscreen="true" allow="clipboard-write"
-                sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-forms allow-same-origin allow-presentation"></iframe>
-            </div>
-
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                DeepL API 키를 사용하려면 기존에 등록한 DeepL 계정과 별도로 DeepL API 계정에 등록해야 합니다. 이번 영상에서는 DeepL API 계정에 등록하는 방법을 살펴보겠습니다</p>
-
-            </div>
-
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">1. DeepL 사이트로 이동
-              (https://www.deepl.com/)</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                브라우저 주소창에 DeepL 주소를 입력해 DeepL 홈페이지로 이동합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FujurCmiA5UuUdQ9w2uSUzy_doc.png?alt=media&amp;token=4bc63ce7-207e-482e-8113-1b64824c29e1"
-              alt="DeepL 사이트로 이동
-(https://www.deepl.com/)" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">2. [메뉴] 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                DeepL API 계정이 아닌 DeepL 계정으로 로그인이 돼 있다면 먼저 로그아웃을 해야 합니다. 오른쪽 상단에서 메뉴 아이콘을 클릭하고</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FdoFXcA65nLAiTsj3pZTV4D_doc.png?alt=media&amp;token=bf5b1ed6-996e-48ce-a583-0bb8b02b1952"
-              alt="[메뉴] 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">3. [로그아웃] 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                로그아웃 메뉴를 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2Fi8ELdjKvWxR5VtFu3z92fA_doc.png?alt=media&amp;token=44af4888-6de4-49eb-ad29-8090dacbe937"
-              alt="[로그아웃] 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">4. [무료 체험 시작하기] 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                이어서 DeepL API 계정에 가입해 보겠습니다. 화면 상단에서 무료 체험 시작하기 버튼을 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FhdNZgumiFjKqydLR8R8sZ8_doc.png?alt=media&amp;token=6d87cf75-1aa1-4f31-b21e-cf33eb00c336"
-              alt="[무료 체험 시작하기] 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">5. [개발자용] 버튼 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                회원 가입 화면 상단에서 개발자용 탭을 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F8QswbEb9MVDAAVZqVq9HY3_doc.png?alt=media&amp;token=b7b15aee-0fb7-4777-aac3-a59c6fb7c001"
-              alt="[개발자용] 버튼 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">6. [무료 회원가입] 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                DeepL API Free 아래쪽에 있는 무료 회원가입 버튼을 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F3q7BGJiEPKcqpdwMTKKEpS_doc.png?alt=media&amp;token=313ea061-6d8d-4ad0-adbd-a8ce7b4ad7bf"
-              alt="[무료 회원가입] 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">7. 이메일 주소 입력
-              (DeepL 계정과 다른 주소 입력)</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                새로운 계정을 생성하기 위해 이메일 주소를 입력합니다. 이때 이메일 주소는 DeepL 계정에 가입할 때 입력한 주소와 다른 주소를 입력해야 합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F83E1FfcVztfQXwGPS4jJRB_doc.png?alt=media&amp;token=e2ecd279-5c51-47de-a6ee-25962eb3bca1"
-              alt="이메일 주소 입력
-(DeepL 계정과 다른 주소 입력)" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">8. 비밀번호 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                비밀번호를 입력합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FfGebDC9kMsXn5PBniAJf6E_doc.png?alt=media&amp;token=df0b008e-654e-4095-a8c4-1849da5d3f1d"
-              alt="비밀번호 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">9. '만 14세 이상입니다.'에 체크</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                만 14세 이상입니다의 체크하고</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FnyXy6vzMnvJjX2h6bBAg4D_doc.png?alt=media&amp;token=9a63cd36-0738-4acd-a9d3-6a6701973517"
-              alt="'만 14세 이상입니다.'에 체크" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">10. [계속] 버튼 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                계속 버튼을 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FjSLfxtJhLBJEgrEnc4JPov_doc.png?alt=media&amp;token=973883a2-59d3-4b5a-b6e8-18e5d194db2d"
-              alt="[계속] 버튼 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">11. 이름 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                이어서 청구 정보를 입력합니다 이름과</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F4LN99VgtESct7qc1Kx2vGa_doc.png?alt=media&amp;token=7f52aff9-1df5-4e84-9a7b-bb20c0dabeeb"
-              alt="이름 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">12. 성 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                성을 입력하고</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2Fm62VeqTRc5A6TJa7XHA2Qq_doc.png?alt=media&amp;token=a8fc15f6-2c85-44a0-ae52-b0c7ea075e7a"
-              alt="성 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">13. 주소 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                주소와</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FkxxK16UuHYESN6Gj55VQDd_doc.png?alt=media&amp;token=e0744454-7f9b-49a5-8c29-7e7c04fba314"
-              alt="주소 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">14. 우편번호 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                우편번호</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FbRs5pNi3HTccLTWJcMG6wU_doc.png?alt=media&amp;token=4e42f3a8-acb0-46cc-b373-1de6e50cf816"
-              alt="우편번호 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">15. 시/군/구 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                시 군 구를 입력합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FprTb7FESzujVwVigttRdBZ_doc.png?alt=media&amp;token=78a3962e-c069-4021-9a19-38c7004bc0c0"
-              alt="시/군/구 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">16. 카드 번호 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                이어서 결제 수단 정보를 입력합니다 카드 번호와</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F1RKVsuKNWe9SEiCRfYnkGS_doc.png?alt=media&amp;token=74da7cc6-481c-4af2-b790-b6a1a9879fda"
-              alt="카드 번호 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">17. 만료일자 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                만료일자를 입력하고</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FhCbLwB76cpQBXMazTNtLKZ_doc.png?alt=media&amp;token=7bcdf0e1-51eb-4cbd-9e2d-3c9d565a1622"
-              alt="만료일자 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">18. 보안코드 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                보안 코드를 입력합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FehsBPaD4J8vReLVVY3e8iE_doc.png?alt=media&amp;token=5a07fb1a-c52d-49e4-bc51-555b13f250b7"
-              alt="보안코드 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">19. [계속] 버튼 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                정보를 모두 입력했으면 계속 버튼을 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2Fu66xGa8EuqAoxQ8YJfsUYQ_doc.png?alt=media&amp;token=c01481f0-3844-4915-aa8e-ed59d13486d6"
-              alt="[계속] 버튼 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">20. 결제 비밀번호 입력</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                결제 창이 나오면 결제 비밀번호를 입력하고</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F56puuCHQ4cCPaGi6D58rGS_doc.png?alt=media&amp;token=66195295-ca16-4fc7-8005-13ba2ad7734c"
-              alt="결제 비밀번호 입력" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">21. [결제 요청] 버튼 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                결제 요청 버튼을 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FoNjsZaF9noeqFNHybNJtPu_doc.png?alt=media&amp;token=318ac24f-3d44-469f-80cc-a0aec9f1ea6b"
-              alt="[결제 요청] 버튼 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">22. 약관에 동의</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                플랜 이용 조건을 확인하고 약관에 동의합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F1B2Pn9ZjsqYMHJur7ZFvu7_doc.png?alt=media&amp;token=a48a614e-2f23-4d45-8f05-5e983c64e5bc"
-              alt="약관에 동의" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">23. [무료 회원가입] 버튼 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                마지막으로 무료 회원가입 버튼을 클릭해 가입을 완료합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FqUDXNZxMig1wDqBoKC1FJ4_doc.png?alt=media&amp;token=14ac17ed-6e23-48fc-a1ba-eea7f217feb7"
-              alt="[무료 회원가입] 버튼 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">24. 구독 번호 보관</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                가입 후에 나오는 구독 번호는 잘 보관해 둡니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2Fj2DPbtSbwBrdLNtF2aM7Qk_doc.png?alt=media&amp;token=2759a052-deee-45da-9b9e-ee105d6b24e7"
-              alt="구독 번호 보관" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">25. 메인 페이지로 이동</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                이어서 DeepL API 키를 발급하겠습니다. 화면 왼쪽 상단에 있는 로고를 클릭해 메인 페이지로 이동합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F4nTMmAzaRmbE72KX3AUbJy_doc.png?alt=media&amp;token=95e15d04-b95a-4cd4-8234-4ba53c00efed"
-              alt="메인 페이지로 이동" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">26. [메뉴] 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                화면 오른쪽 상단에 있는 메뉴를 클릭하고</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2F9NcXAq6HPMNbzR8zmfud1J_doc.png?alt=media&amp;token=47d9a682-92ad-491e-a327-e216454a5f3d"
-              alt="[메뉴] 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">27. [계정] 클릭</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                계정을 클릭합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FvfZEozJiveivEunhgvhCw7_doc.png?alt=media&amp;token=f14ee0b0-f18b-41b8-b653-3740d5c0210e"
-              alt="[계정] 클릭" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">28. [계정] 탭 선택</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                내 DeepL 계정 페이지가 나오면 다시 계정 탭을 선택합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2Fe3A2BWXast2iYDEA6YdjYj_doc.png?alt=media&amp;token=be85e714-8e0c-4f1a-b2ac-56d8e6f3df52"
-              alt="[계정] 탭 선택" />
-            <h3 style="width: 100%; word-break: break-word; max-width:100%;">29. 스크롤</h3>
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                화면을 아래로 스크롤 하면 DeepL API를 위한 인증 키를 볼 수 있습니다. API 키를 복사한 다음 안전한 곳에 잘 보관합니다</p>
-
-            </div> <img width="100%"
-              src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2F9c3paYzHZ1to7As8zVNE99%2FiLUr9h1knwiuTqH9MaeyXr_doc.png?alt=media&amp;token=b21e9732-e055-470b-949e-c11142cfa7b6"
-              alt="스크롤" />
-            <div style="margin-top:16px; margin-bottom:16px">
-              <p
-                style="font-size:14px; color: rgba(9, 12, 16, 0.6); width: 100%; word-break: break-word; max-width:100%;">
-                지금까지 DeepL API 계정에 회원 가입하고 DeepL API 키를 발급받는 방법을 살펴봤습니다</p>
-
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  이번 영상에서는 구글 독스를 활용하여 다른 번역 도구와 교차
+                  검증하는 방법을 살펴보겠습니다.
+                </p>
+              </div>
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                1. 구글 드라이브로 이동 (https://drive.google.com)
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  주소창에 구글 드라이브 주소를 입력해 구글 드라이브로
+                  이동합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FoJcejbxkU2nDDXS7KLtMMm_doc.png?alt=media&amp;token=d2dc522e-6901-4ec4-80f6-990a9b13b668"
+                alt="구글 드라이브로 이동
+(https://drive.google.com)"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                2. [신규] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  먼저 새로운 구글 스프레드시트를 생성하겠습니다. 왼쪽 메뉴에서
+                  신규 버튼을 클릭하고
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F1oDYFYP2MHJYZaidpCpYCF_doc.png?alt=media&amp;token=0960f193-4d5f-4f79-8a0c-aaefe09590af"
+                alt="[신규] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                3. [Google 스프레드시트] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  구글 스프레드시트 메뉴를 클릭합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2Fu537RcrgJnQeHFfUQmBXUi_doc.png?alt=media&amp;token=16baa96b-9f8b-41a0-be47-8fe472663c7f"
+                alt="[Google 스프레드시트] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                4. 제목에 '번역 검증 문서' 입력
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  새로운 구글 스프레드시트가 열리면 상단 제목 영역에 번역 검증
+                  문서라고 제목을 입력합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F2HwGLFZmEViZRvPcic9BiE_doc.png?alt=media&amp;token=6a4d95f1-96b7-4060-ba0d-836c3b73efd2"
+                alt="제목에 '번역 검증 문서' 입력"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                5. 첫 번째 행에 원문, 구글 번역, DeepL 번역, ChatGPT 번역 입력
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  첫 번째 행에 원문, 구글 번역, DeepL 번역, ChatGPT 번역을
+                  입력합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2Fehx6VURqZqkcGsKgzZianN_doc.png?alt=media&amp;token=87643276-f3e2-49d2-ba71-89c2a285b50b"
+                alt="첫 번째 행에
+원문, 구글 번역, DeepL 번역,
+ChatGPT 번역 입력"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                6. 첫 번째 행에 테두리 추가
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  첫 번째 행을 블록으로 선택한 다음 테두리 버튼을 클릭해
+                  테두리를 설정합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FozTv7r22wwcjWurqwzFAqz_doc.png?alt=media&amp;token=e1da2650-8a40-4c8f-9a62-0f6d026c5ed8"
+                alt="첫 번째 행에 테두리 추가"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                7. 첫 번째 행 가운데 정렬
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  이어서 가운데 정렬 버튼을 클릭해 가운데 정렬을 하겠습니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F8ssnb2AA75xGtSxaUCHUhr_doc.png?alt=media&amp;token=7a6c5704-b907-4213-81f6-113b34a68bee"
+                alt="첫 번째 행 가운데 정렬"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                8. 첫 번째 행 배경색 지정
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  마지막으로 배경색을 지정합니다. 배경색 아이콘을 클릭하고
+                  원하는 색상을 선택합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F2qiu6c3JkyU916MfyoqCvx_doc.png?alt=media&amp;token=31a9703e-9ce6-4300-9976-21230f12f2ff"
+                alt="첫 번째 행 배경색 지정"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                9. B2 셀에 함수 입력
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  먼저 구글 번역을 위한 함수를 입력하겠습니다. B2 셀을 선택하고
+                  다음과 같이 함수를 입력합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FdAMEYk9hQCCStAE8vrPbnB_doc.png?alt=media&amp;token=15ab96e5-5dc9-4802-918c-0565aae46d38"
+                alt="B2 셀에 함수 입력"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                10. 테두리 설정
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  두 번째 행에도 테두리와 정렬을 지정하겠습니다. 두 번째 행을
+                  블록으로 선택한 후 테두리 설정 버튼을 클릭해 테두리를
+                  설정합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2Fbk2QmQBPN3kY8Zo7dwkVPt_doc.png?alt=media&amp;token=37dc1a28-6cf2-4165-8027-da749bf76da4"
+                alt="테두리 설정"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                11. 줄바꿈 설정
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  이어서 줄바꿈 버튼을 클릭해 줄바꿈 설정을 합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FdSEityhaWyKDY7mUxUNXCi_doc.png?alt=media&amp;token=c297b4e4-328a-48df-8e94-cb41e8f8edec"
+                alt="줄바꿈 설정"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                12. 상단 정렬 설정
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  마지막으로 세로 정렬을 상단 정렬로 설정합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FmYAMpva78WazJLVtqWJkKh_doc.png?alt=media&amp;token=9561ae91-aea0-4bb3-94c0-838e6ff2c12b"
+                alt="상단 정렬 설정"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                13. A2 셀에 원문 입력
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  구글 번역을 테스트 해 보겠습니다. A2 셀에 번역하고자 하는
+                  원문을 입력합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FaBB4sS2ukdM1ZYKV2b9gKj_doc.png?alt=media&amp;token=3da091a3-ea4f-4e56-a6d0-52d722ace736"
+                alt="A2 셀에 원문 입력"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                14. B2 셀에서 번역 결과 확인
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  잠시 기다리면 B2 셀에 구글 번역 결과가 나오는 모습을 볼 수
+                  있습니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FwHEx4ftKPdgkNKnzksoP6S_doc.png?alt=media&amp;token=48bad679-c000-45a3-9373-29f17e08562a"
+                alt="B2 셀에서 번역 결과 확인"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                15. [확장 프로그램] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  이어서 DeepL 번역을 설정해 보겠습니다. DeepL 번역을 설정하려면
+                  DeepL API 키가 필요합니다. 아직 키를 발급받지 않았다면 DeepL
+                  API 계정 등록하기 튜토리얼을 참고하여 디벨 API 키를 먼저
+                  발급받기 바랍니다. 상단 메뉴에서 확장 프로그램을 클릭하고.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FjxZXwgSkhcGWDDK3J4Fw7v_doc.png?alt=media&amp;token=bb0d7545-7e0f-4903-9ff6-6b604482f1e1"
+                alt="[확장 프로그램] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                16. [Apps Script] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  Apps Script를 클릭합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F58ZawsMvd2C9CzkzxH3eg3_doc.png?alt=media&amp;token=6f7a5ad2-8d3a-4335-b6f4-c867b794b853"
+                alt="[Apps Script] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                17. 기존 코드 지우기
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  화면에 있는 기존 코드는 모두 지워줍니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FqrZETzZJajsjWNvdmSA165_doc.png?alt=media&amp;token=99b3d2ae-a901-43bc-8347-80d99e4d4b19"
+                alt="기존 코드 지우기"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                18. DeepL.gs 소스 코드가 있는 페이지로 이동
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  DeepL의 구글 스크립트 소스 코드가 있는 아래 주소로 이동합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FucYaBX7yqHt2xtVfDZeLqh_doc.png?alt=media&amp;token=0deaba96-3117-4f6d-a942-1f3db11806b7"
+                alt="DeepL.gs 소스 코드가 있는 페이지로 이동"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                19. 코드 전체 선택 후 복사
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  코드를 모두 선택한 다음 복사합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2Fi4yeaYfvaqSC6cCCaAZqBn_doc.png?alt=media&amp;token=84c359f9-6472-42a4-b698-a5d5311449a9"
+                alt="코드 전체 선택 후 복사"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                20. Apps Script에 붙여 넣기
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  다시 구글 스프레드시트로 돌아와 복사해 두었던 코드를 앱스
+                  스크립트 창에 붙여 넣습니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FucZxR17DMfRQ3tqjdhjyuP_doc.png?alt=media&amp;token=b384ff1d-ead2-48b3-b141-b70c1669546f"
+                alt="Apps Script에 붙여 넣기"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                21. 26번째 줄에 DeepL API Key 입력
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  26번째 줄에 DeepL API 키를 입력합니다. 이때 API 키는 반드시
+                  쌍따옴표 안에 붙여 넣어야 합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F8TL4CVbEosUJuNGPF7f9fu_doc.png?alt=media&amp;token=378e7cd9-34b2-4705-8354-a94362f2f16a"
+                alt="26번째 줄에 DeepL API Key 입력"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                22. [저장] 아이콘 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  화면 상단에서 저장 아이콘을 클릭하고.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F7JtSzRKCCwz8Nt36bNDmsG_doc.png?alt=media&amp;token=aa7ab325-7d5f-4be0-a7ab-7bb9e8141f49"
+                alt="[저장] 아이콘 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                23. [배포] 버튼 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  배포 버튼을 클릭한 다음 앱스 스크립트 창을 닫아 줍니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F5x9M7YznUFpD5k6fnEgExr_doc.png?alt=media&amp;token=aa3b3773-8127-4dac-bb60-c90a6d05d4a5"
+                alt="[배포] 버튼 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                24. C2 셀에 함수 입력
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  C2셀을 선택하고 다음과 같이 함수를 입력합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F3mDyanijyeYzHyrrQrGmR5_doc.png?alt=media&amp;token=f80fa0d3-5fc1-41de-98e8-bad69c6e0622"
+                alt="C2 셀에 함수 입력"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                25. 번역 결과 확인
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  잠시 기다리면 C2셀에 DeepL 번역 결과가 나오는 모습을 볼 수
+                  있습니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2Fay6WSnhuvK5is46TeFS9YY_doc.png?alt=media&amp;token=21d30756-dabf-4044-a1b3-aa3acc72896a"
+                alt="번역 결과 확인"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                26. [확장 프로그램] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  마지막으로 ChatGPT 번역을 테스트해 보겠습니다. ChatGPT 번역을
+                  설정하려면 GPT for Sheets and Docs를 설치하고 설정해야 합니다.
+                  OpenAI 키 발급하기, GPT for Sheets and Docs 설치하기, GPT fot
+                  Sheets에 API 키 등록하기 튜토리얼을 참고하여 설정한 후에
+                  진행하기 바랍니다. 상단 메뉴에서 확장 프로그램을 클릭하고.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FpMFWPF8MSbMTsELUroQHDj_doc.png?alt=media&amp;token=4c03e3ba-b721-43a5-80f5-76391a4d6426"
+                alt="[확장 프로그램] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                27. [GPT for Sheets and Docs] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  GPT for Sheets and Docs를 클릭한 다음
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F2AmwUvATCZwvgAhtoyPE2b_doc.png?alt=media&amp;token=641d2623-bdc6-468e-b85b-3ca5bb3abf57"
+                alt="[GPT for Sheets and Docs] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                28. [Enable GPT functions] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  Enable GPT functions를 클릭해 GPT 함수를 활성화합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F8DWXkWRcE8Sewdhtvx7kjx_doc.png?alt=media&amp;token=1b258eb2-79f3-48b6-8b69-0843aa4d4981"
+                alt="[Enable GPT functions] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                29. [확인] 클릭
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  알림창이 나오면 확인 버튼을 클릭합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2F4b93HTqbv2DGnnXoLa8e8Z_doc.png?alt=media&amp;token=33b08129-d856-4d8d-bd12-f3dbfc10c067"
+                alt="[확인] 클릭"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                30. D2 셀에 함수 입력
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  D2 셀을 선택하고 다음과 같이 함수를 입력합니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2FjXZa1KCn5KRSJZ77SfvTSH_doc.png?alt=media&amp;token=3684a6cc-cbe1-40df-9345-3286daa0ac4e"
+                alt="D2 셀에 함수 입력"
+              />
+              <h3 style="width: 100%; word-break: break-word; max-width: 100%">
+                31. D2 셀에서 번역 결과 확인
+              </h3>
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  잠시 기다리면 D2 셀에 ChatGPT 번역 결과가 나오는 모습을 볼 수
+                  있습니다.
+                </p>
+              </div>
+              <img
+                width="100%"
+                src="https://static.guidde.com/v0/qg%2F0rpd1DyVShVqyTooBN70dwcHOa92%2FotMt3T5pwwkUoKdeC3AiAG%2Fiw7ap3XbCgbWwXeTEyNs3w_doc.png?alt=media&amp;token=f64564eb-6c8a-450e-82bc-6c7bb5450c03"
+                alt="D2 셀에서 번역 결과 확인"
+              />
+              <div style="margin-top: 16px; margin-bottom: 16px">
+                <p
+                  style="
+                    font-size: 14px;
+                    color: rgba(9, 12, 16, 0.6);
+                    width: 100%;
+                    word-break: break-word;
+                    max-width: 100%;
+                  "
+                >
+                  지금까지 구글 독스를 활용하여 다른 번역 도구와 교차 검증하는
+                  방법을 살펴봤습니다.
+                </p>
+              </div>
+              <div style="margin-right: 2px">
+                <a
+                  href="https://www.guidde.com"
+                  rel="noreferrer"
+                  target="_blank"
+                  style="text-decoration: none; color: #000000"
+                  >Powered by <strong style="color: #cb0000">guidde</strong></a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <footer>
+        <p>Copyright © 2024 Wikibooks. All rights reserved.</p>
+      </footer>
     </div>
-
-    <footer>
-      <p>Copyright © 2024 Wikibooks. All rights reserved.</p>
-    </footer>
-  </div>
-</body>
-
+  </body>
 </html>
